@@ -9,7 +9,7 @@ class AsyncMachine {
 
     Async_Json_Call(){
 
-        return new Promise((resolve,reject) => {
+        return new Promise((resolve, reject) => {
 
             request(`https://jsonplaceholder.typicode.com/albums/1/photos`,(err ,res, body) =>{
 
