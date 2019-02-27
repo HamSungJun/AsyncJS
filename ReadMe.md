@@ -4,7 +4,7 @@
 
 - `Promise`
 
-- `async-await`
+- `async/await`
 
 ### [Promise](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
@@ -36,5 +36,33 @@
 
 - [소스 예제](./Examples/Promise.js)
 
-### [async-await]()
+### [async/await](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/async_function)
+
+---
+
+~~~javascript 1.6
+
+    # async 함수 선언
+    
+    async function name([param[, param[, ... param]]]) { 
+        statements
+    }
+    
+    const name = async ([param[, param[, ... param]]]) => {
+    
+    }
+    
+    # await : 
+    
+        - async 키워드로 선언된 함수 내부에서만 사용할 수 있는 키워드
+        - 기대하는 반환 값은 Promise API 의 resolve 메소드가 전달하는 값이다.
+    
+    # 장점
+    
+        - async/await는 비동기 코드의 겉모습과 동작을 동기 코드처럼 받아들이도록 도와준다.
+        
+~~~
+
+- [소스 예제](./Examples/_Async.js)
+
 
